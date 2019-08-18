@@ -22,7 +22,7 @@ def take_input():
 root = Tk()
 root.title('Word Descrambler')
 
-w = Label(root, text="please type a word to descramble")
+w = Label(root, text="Please type a letter combination to descramble")
 w.pack()
 
 puzzle = StringVar()
